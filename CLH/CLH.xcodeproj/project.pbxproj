@@ -14,6 +14,7 @@
 		ED3CF3C72AD297A700338309 /* CLHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CF3C62AD297A700338309 /* CLHTests.swift */; };
 		ED3CF3D12AD297A700338309 /* CLHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CF3D02AD297A700338309 /* CLHUITests.swift */; };
 		ED3CF3D32AD297A700338309 /* CLHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CF3D22AD297A700338309 /* CLHUITestsLaunchTests.swift */; };
+		ED3CF3E02AD2C15100338309 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED3CF3DF2AD2C15100338309 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ED3CF3CC2AD297A700338309 /* CLHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3CF3D02AD297A700338309 /* CLHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLHUITests.swift; sourceTree = "<group>"; };
 		ED3CF3D22AD297A700338309 /* CLHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED3CF3DF2AD2C15100338309 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				ED3CF3B52AD297A600338309 /* CLHApp.swift */,
 				ED3CF3B72AD297A600338309 /* ContentView.swift */,
 				ED3CF3B92AD297A700338309 /* Assets.xcassets */,
+				ED3CF3DF2AD2C15100338309 /* GoogleService-Info.plist */,
 				ED3CF3BB2AD297A700338309 /* Preview Content */,
 			);
 			path = CLH;
@@ -233,6 +236,7 @@
 			files = (
 				ED3CF3BD2AD297A700338309 /* Preview Assets.xcassets in Resources */,
 				ED3CF3BA2AD297A700338309 /* Assets.xcassets in Resources */,
+				ED3CF3E02AD2C15100338309 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

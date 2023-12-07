@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#card-container {
+    perspective: 1000px;
+}
+
+#card {
+    width: 2000px;
+    height: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    /* Other styles... */
+}
+
+/* Additional styles for content inside the card (if needed) */
+#card img {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    /* Other styles... */
+}
+
+#card p {
+    text-align: center;
+    /* Other styles... */
+}
+
+#interaction-area {
+    width: 100%;  /* or specific size */
+    height: 100%; /* or specific size */
+    /* Centering if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
